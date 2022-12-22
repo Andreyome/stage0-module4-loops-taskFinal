@@ -23,6 +23,7 @@ if (cathetusLength>0){
             space = space.substring(0, (space.length() - 1));
         }
     }
+    output=output.substring(0,(output.length()-1));
     System.out.println(output);
 }
 
